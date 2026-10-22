@@ -1,0 +1,165 @@
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+.head {
+display: flex;
+justify-content: space-between;
+align-items: center;
+padding: 15px 50px;
+background-color: black;
+color: whitesmoke;
+}
+
+.header {
+display: flex;
+border: none;
+align-items: center;
+gap: 10px;
+}
+
+.brand-name {
+  font-size: 18px;
+  font-weight: bold;
+  letter-spacing: 1px;
+}
+
+.head-menu {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.head-menu li a {
+  text-decoration: none;
+  color: whitesmoke;
+  transition: 2s ease;
+}
+
+.head-menu li a:hover {
+color: burlywood;
+}
+
+marquee {
+  
+  color: black;
+  height: 20px;
+}
+
+.pray {
+  background-color: black;
+  padding-bottom: 10px;
+}
+
+.prayer img{
+  padding-top: 80px;
+  padding-left: 280px;
+}
+
+.prayer p {
+  color: aliceblue;
+  text-align: center;
+  font-family: Verdana, Geneva, Tahoma;
+}
+
+.prayer b {
+  border: 1px solid;
+  border-color: blue;
+  background-color: blue;
+  font-size: small;
+  padding: 10px;
+}
+
+.link h2 {
+  text-decoration: underline;
+  text-align: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.involve {
+  text-align: center;
+  background-color: rgb(250, 246, 246);
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+/*.involve h3 {
+  text-align: center;
+}**/
+
+.ment {
+  display: flex;
+  text-align: center;
+  padding-left: 150px;
+  padding-top: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana;
+  font-style: oblique;
+  font-size: 18px;
+}
+
+.ment .add {
+  display: block;
+  word-wrap: break-word;
+  padding-bottom: 50px;
+}
+
+.ment .event {
+  padding-left: 25px;
+}
+
+.ment .min {
+  padding-left: 25px;
+}
+
+.partner {
+  background-image:url("img/prayer.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 55.76% 50.85%;
+  z-index: 10;
+  color: aliceblue;
+  overflow-y: hidden;
+  text-align: center;
+  padding: 35px;
+}
+
+.partner h3 {
+  margin: 50px;
+}
+
+.partner p{
+  margin: 50px;
+  width: 700px;
+  word-wrap: break-word;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  left: 22%;
+}
+
+.partner b {
+  border: 1px solid;
+  border-color: blue;
+  background-color: blue;
+  font-size: small;
+  padding: 10px;
+}
+
+.social {
+  background-color: rgb(238, 236, 236);
+  padding: 30px;
+  text-align: center;
+}
+
+.social h3 {
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 25px;
+}
+
+.social a {
+  border: 1px solid;
+  border-color: blue;
+  background-color: blue;
+  padding: 10px;
+  color: aliceblue;
+}
